@@ -1,0 +1,19 @@
+.info-component h1 {
+  font-size: 1.2rem;
+  margin: 0;
+
+}
+
+.info-p{
+  cursor: pointer;
+}
+
+.info-p a {
+  color: var(--blue) !important;
+  text-decoration: underline;
+}
+
+.info-p a:hover {
+  color: var(--blue) !important;
+  transition: all 0.3s;
+}
