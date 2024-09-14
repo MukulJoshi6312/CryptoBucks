@@ -9,7 +9,7 @@ export default function PaginationControlled({ page, handlePageChange }) {
       <Pagination
         sx={{
           "& .MuiPaginationItem-text": {
-            color: "#var(--white) !important",
+            color: "var(--white) !important",
             border: "1px solid var(--blue)",
           },
           "& .MuiPaginationItem-text:hover": {
