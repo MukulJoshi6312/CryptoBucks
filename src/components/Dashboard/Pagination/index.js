@@ -15,9 +15,10 @@ export default function PaginationControlled({ page, handlePageChange }) {
           "& .MuiPaginationItem-text:hover": {
             backgroundColor: "transparent !important",
           },
-          "& .Mui-selected  ": {
-            backgroundColor: "var(--blue)",
-            borderColor: "var(--blue)",
+          "& .Mui-selected": {
+           backgroundColor: "var(--blue) !important",
+            borderColor: "var(--blue) !important",
+            color: "var(--white) !important",
           },
           "& .MuiPaginationItem-ellipsis": {
             border: "none",
